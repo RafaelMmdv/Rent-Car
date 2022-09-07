@@ -191,6 +191,41 @@ img {
     white-space: nowrap;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 2px solid #FF4D00;
+    padding: 1rem 7rem;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.about-container{
+    display: grid;
+    justify-content: center;
+}
+
+.about-us {
+    max-width: 1073px;
+}
+
+.about-us p {
+    padding-top: 1.5rem;
+}
+
+.about-us h4 {
+    color: #FF4D00;
+}
+
+
 
 @media only screen and (max-width: 900px) {
     .cars .car {
