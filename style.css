@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Racing+Sans+One&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: var(--light-color);
+}
+
+a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.info {
+    height: 80px;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 10rem;
+}
+
+.info div {
+    display: flex;
+    padding: 1.5rem 4rem;
+}
+
+.info .fa-2x {
+    padding: 1rem 3rem;
+}
+
+.flame {
+    width: 37px;
+    height: 50px;
+    margin-top: 1.5rem;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    font-family: 'Racing Sans One';
+    font-size: 3rem;
+    justify-self: center;
+    align-self: center;
+}
+
+/* .logo img {
+    padding: .5rem 1rem;
+} */
+
+.fa-brands {
+    padding-right: 2.5rem;
+}
+
+.navbar ul li{
+    padding: 0 4rem;
+}
+
+.header-main {
+    background-image: url(/img/bg.png);
+    background-repeat: no-repeat;
+    height: 587px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-main .line {
+    height: 140px;
+    background-color:  rgba(28, 28, 28, 0.76);
+    opacity: .8;
+    position: absolute;
+    display:flex;
+    width: 100%;
+    margin-top: 33rem;
+}
+
+.line p {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.box {
+    position: absolute;
+    width: 465px;
+    height: 272px;
+    background: #F7F7F7;
+    box-shadow: 4px 4px 4px #FF4D00;
+    margin: 5rem 3rem;
+}
+
+.car-box {
+    position: relative;
+}
+
+
+
+.cars {
+    position: relative;
+}
+
+.cars .car {
+    display: flex;
+    justify-content: center;
+}
+
+.car-img {
+    width: 232.85px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.car-img1 {
+    width: 238.54px;
+    margin-top: 65px;
+    margin-left: 53px;
+}
+
+.car-img2 {
+    width: 259px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+.car-img3 {
+    width: 200px;
+    margin-top: 55px;
+    margin-left: 72px;
+}
+
+.car-img4 {
+    width: 227px;
+    margin-top: 55px;
+    margin-left: 48px;
+}
+
+.car-img5 {
+    width: 225px;
+    margin-top: 60px;
+    margin-left: 48px;
+}
+
+.card {
+    display: flex;
+}
+
+.car-features {
+    flex-direction: column !important;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.car-box h2{
+    display: flex;
+    justify-content: center;
+}
+
+.car-features li {
+    white-space: nowrap;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .cars .car {
+        display: grid;
+    }
+}
