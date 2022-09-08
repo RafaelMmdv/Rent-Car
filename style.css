@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Racing+Sans+One&family=Varela+Round&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Racing+Sans+One&family=Raleway&family=Varela+Round&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +41,7 @@ img {
 
 .navbar {
     height: 60px;
-    background-color: wheat;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 10rem;
@@ -106,10 +105,16 @@ img {
     margin-top: 33rem;
 }
 
-.line p {
-    font-size: 3rem;
+.line h1 {
+    font-size: 4rem;
     color: white;
     font-weight: bold;
+    font-family: 'Raleway' sans-serif;
+    padding-left: 20rem;
+    display: grid;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-bottom: 2rem;
 }
 
 .box {
@@ -277,10 +282,27 @@ footer {
     padding-top: 1.5rem;
 }
 
+.fa {
+    padding-right: 1rem;
+}
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .cars .car {
         display: grid;
         width: 100%;
+    }
+    .social {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 678px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .info {
+        display: none;
     }
 }
