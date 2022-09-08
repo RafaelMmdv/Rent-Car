@@ -208,6 +208,10 @@ img {
     font-size: .9em;
 }
 
+.btn-2 {
+    margin-top: 3rem;
+}
+
 .about-container{
     display: grid;
     justify-content: center;
@@ -242,6 +246,35 @@ img {
 .fa-check {
     color: #FF4D00;
     padding-right: 1.2rem;
+}
+
+footer {
+    height: 250px;
+    background: #1C1C1C;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.contact-1 {
+    display: flex;
+}
+
+.contact-1 p {
+    padding: 3rem 1rem;
+}
+
+.end {
+    color: #FF4D00;
+}
+
+.copyright {
+    padding-top: 1.5rem;
 }
 
 
