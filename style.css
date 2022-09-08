@@ -231,6 +231,11 @@ img {
     padding: 2rem 0 1rem 0;
 }
 
+.about-us h3{
+    display: block;
+    border-bottom: 2px solid #FF4D00; 
+}
+
 .about-us h4 {
     font-weight: bold;
     padding: 1rem 0 1.5rem 0;
