@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Racing+Sans+One&family=Raleway&family=Varela+Round&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -129,8 +131,6 @@ img {
 .car-box {
     position: relative;
 }
-
-
 
 .cars {
     position: relative;
