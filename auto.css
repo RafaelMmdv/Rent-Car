@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-body ul {
+    flex-direction: column;
+}
+
+.card-body img {
+    max-width: 230px;
+    width: 100%;
+}
+
+.cars {
+    display: flex;
+    margin: 5rem 2rem;
+}
+
+.car h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.car h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+    width: 465px;
+    height: 272px;
+    background: #F7F7F7;
+    box-shadow: 4px 4px 4px #FF4D00;
+}
+
+#cars {
+    display: flex;
+    justify-content: center;
+}
+
+.header-main {
+    display: none;
+}
