@@ -53,3 +53,31 @@
 .header-main {
     display: none;
 }
+
+@media only screen and (max-width: 950px) {
+    .cars-card .cars {
+        display: grid;
+        width: 100%;
+    }
+    .social {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 678px) {
+    .car {
+        width: 368px !important;
+    }
+
+    .card-body ul li {
+        white-space: nowrap;
+    }
+
+    .cars .car {
+        margin-top: 4rem;
+    }
+
+    .cars {
+        margin: 2rem;
+    }
+}
