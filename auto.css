@@ -67,6 +67,7 @@
 @media only screen and (max-width: 678px) {
     .car {
         width: 368px !important;
+        margin: 0;
     }
 
     .card-body ul li {
@@ -78,6 +79,6 @@
     }
 
     .cars {
-        margin: 2rem;
+        margin: 0;
     }
 }
