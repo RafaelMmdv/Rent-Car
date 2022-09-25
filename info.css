@@ -1,0 +1,7 @@
+.car-info {
+    display: flex;
+}
+
+.info-car ul {
+    display: grid;
+}
